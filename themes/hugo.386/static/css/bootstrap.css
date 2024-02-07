@@ -791,6 +791,17 @@ h3 {
   line-height: 20px;
 }
 
+h2{
+  padding: 20px;
+}
+
+h2:before, 
+h2:after {
+    content: '- - -';
+    position: relative;
+    display: block; 
+}
+
 h3:before {
   content: ">>> ";
 }
@@ -870,19 +881,16 @@ li {
   padding-left: 0;
   margin-left: 0;
   line-height: 20px;
-  list-style: none;
 }
 
 ul.unstyled,
 ol.unstyled {
   margin-left: 0;
-  list-style: none;
 }
 
 ul.inline,
 ol.inline {
   margin-left: 0;
-  list-style: none;
 }
 
 ul.inline > li,
