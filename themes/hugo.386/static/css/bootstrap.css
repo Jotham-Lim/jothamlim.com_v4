@@ -797,7 +797,7 @@ h2{
 
 h2:before, 
 h2:after {
-    content: '- - -';
+    content: '= = =';
     position: relative;
     display: block; 
 }
@@ -808,6 +808,49 @@ h3:before {
 
 h3:after {
   content: " <<<";
+}
+
+
+
+h5 {
+  -webkit-animation: blinkingText 1.2s infinite;
+  animation: blinkingText 1.2s infinite;
+}
+
+@-webkit-keyframes blinkingText {
+  1% { visibility: hidden; }
+  49% { visibility: hidden; }
+  60% { visibility: visible; }
+  99% { visibility: visible; }
+  100% { visibility: hidden; }
+}
+
+@keyframes blinkingText {
+  1% { visibility: hidden; }
+  49% { visibility: hidden; }
+  60% { visibility: visible; }
+  99% { visibility: visible; }
+  100% { visibility: hidden; }
+}
+
+h6 {
+  -webkit-animation: jaggedScroll 3s infinite;
+  animation: jaggedScroll 3s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-timing-function: steps(10, jump-both);
+  animation-timing-function: steps(10, jump-both);
+  white-space: nowrap;
+}
+
+@-webkit-keyframes jaggedScroll {
+  from { margin-left: -8px; }
+  to { margin-left: 80px; }
+}
+
+@keyframes jaggedScroll {
+  from { margin-left: -8px; }
+  to { margin-left: 80px; }
 }
 
 h1 {
