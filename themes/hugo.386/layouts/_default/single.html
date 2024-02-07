@@ -2,10 +2,10 @@
 
 <div class="row-fluid navmargin">
     <div class="page-header">
-        <h1>{{ .Title }} - {{ .Date.Format "Mon, Jan 2, 2006" }}</h1>
+        <h1 class="p-name">{{ .Title }} - <span class="dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</span></h1>
     </div>
     <p class="lead">{{ .Params.description }}</p>
-    {{ .Content }}
+    <span class="e-content">{{ .Content }}</span>
     <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
 </div>
 
