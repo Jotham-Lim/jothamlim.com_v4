@@ -774,6 +774,7 @@ h1, h2, h3 {
 
 h2 {
     text-align: center;
+    font-weight: bold;
     margin: 20px 0;
     padding: 5px;
     color: #000;
@@ -842,13 +843,19 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 
 .page-header {
-  padding: 20px 20px;
-  margin: 20px 0 20px;
-  background: #00aaaa;
-}
-
-.page-header h1 {
-  color: #000000;
+  display: block;
+  font-weight: normal;
+  line-height: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #9C1FA4;
+  border: 1px solid #000000;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
+    -moz-box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
+          box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
 }
 
 ul,
@@ -861,7 +868,7 @@ ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin-bottom: 1.5em;
+  margin-bottom: 0px;
 }
 
 li {
@@ -936,7 +943,7 @@ dd {
 }
 
 hr {
-  margin: 6px 0 7px;
+  margin: 1em 0 1em;
   border: 0;
   border-top: 0px solid #bbbbbb;
   border-bottom: 2px solid #ffffff;
@@ -3790,17 +3797,9 @@ input[type="submit"].btn.btn-mini {
 }
 
 .nav-header {
-  display: block;
-  font-weight: normal;
-  line-height: 20px;
-  color: #ffffff;
-  text-transform: uppercase;
-  background-color: #9C1FA4;
-  border: 1px solid #000000;
-  padding: 10px;
-  -webkit-box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
-    -moz-box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
-          box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
+  padding: 20px 20px;
+  background: #00aaaa;
+  color: #000000;
 }
 
 .nav li + .nav-header {
