@@ -1,5 +1,5 @@
 baseURL = "https://jothamlim.com"
-title = "Jotham Lim"
+title = "JOTHAM LIM"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
 theme = "hugo.386"
@@ -7,7 +7,7 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "J0THAM L1M 33 CH3N"
+    mainpagetitle = "J0THAM L1M 33 CH3N'S W3BS1TE"
 
     # The subtitle to display under the title in the home page
     mainpagesubtitle = "Tech Hobbyist, HealthyGamer Coach & B2B Marketer"
@@ -65,3 +65,4 @@ preserveTaxonomyNames = true
 [taxonomies]
 category = "categories"
 tag = "tags"
+
