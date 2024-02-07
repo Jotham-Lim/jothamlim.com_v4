@@ -13,7 +13,7 @@ preserveTaxonomyNames = true
     mainpagesubtitle = "Tech Hobbyist, HealthyGamer Coach & B2B Marketer"
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "Welcome to my corner on the internet — where I sharing thoughts and insights learnt throughout work and life."
+    mainpagedesc = "Welcome to my corner on the internet — where I share thoughts and insights learnt throughout work and life."
 
     # The name to display in the copyright section in the footer
     copyrightname = "Jotham Lim"
@@ -38,9 +38,6 @@ preserveTaxonomyNames = true
 
 [params.copyright]
     name = "Jotham Lim"
-
-    # Text to go before copyright information
-    prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
 
 [menu]
   # This displays buttons in the navbar to access your contents
