@@ -1,6 +1,10 @@
 {{ define "main" }}
 
 <div class="row-fluid navmargin">
+    <h1 class="nav nav-header">Table of Content</h1>
+    <ul>
+        {{ .TableOfContents }}
+    </ul>
     <div class="page-header">
         <h1 class="p-name">{{ .Title }} - <span class="dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</span></h1>
     </div>

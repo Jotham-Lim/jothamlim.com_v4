@@ -9,6 +9,8 @@ tags:
 - Technology
 ---
 
+![Brain Same Wavelength GIF](https://media.tenor.com/hYBPeFN96qgAAAAC/brain-same-wavelength.gif)
+
 # This ie Heading 1
 ## This is heagind 2
 ### This is heading 3
