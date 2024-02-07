@@ -1,6 +1,7 @@
 ---
 title: "Cool Links That I've Found"
 date: 2024-02-07
+DisableToc: true
 ---
 
 - NeoCities
