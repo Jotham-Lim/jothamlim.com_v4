@@ -1,5 +1,14 @@
 <head>
-    <title>{{ .Site.Title }}</title>
+    <meta name="og:title" content="{{ Page.Title }}" />
+    <meta property="og:url" content="{{ .Page.Permalink }}" />
+    <meta name="og:image" content="{{ site.Params.FeaturedImage }}" />
+    {{- if .Params.Description -}}
+    <meta name="description" content="{{ .Params.Description }}" />
+    <meta property="og:description" content="{{ .Params.Description }}" />
+    {{- else -}}
+    <meta name="description" content="{{ site.Params.mainpagedesc }}" />
+    <meta property="og:description" content="{{ site.Params.mainpagedesc }}" />
+    {{- end }}
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

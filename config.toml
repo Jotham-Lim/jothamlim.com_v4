@@ -4,6 +4,7 @@ languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
 theme = "hugo.386"
 preserveTaxonomyNames = true
+enableRobotsTXT = true
 
 [params]
     # The name to display as main title in the home page
@@ -35,6 +36,8 @@ preserveTaxonomyNames = true
 
     # Enables or disables the second flyby cursor. Default is false.
     loadonepass = false
+
+    FeaturedImage = "/images/f_image.jpg"
 
 [params.copyright]
     name = "Jotham Lim"
