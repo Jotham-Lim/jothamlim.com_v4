@@ -3,6 +3,7 @@ title = "Welcome to my site!"
 aliases = ["about-us","about-hugo","contact"]
 author = "Hugo Authors"
 DisableToc = true
+DisableDate = true
 +++
 
 Hi, I'm Jotham.
