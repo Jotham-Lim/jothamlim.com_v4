@@ -235,7 +235,7 @@ body {
   font-size: 18px;
   line-height: 1.4em;
   color: #bbbbbb;
-  background-color: #000084;
+  background-color: #000057;
 }
 
 a {
@@ -670,12 +670,21 @@ small {
 }
 
 strong {
-  font-weight: inherit;
+  font-weight: bold;
   color: #ffffff;
+}
+
+strong::before {
+  content: "*";
+}
+
+strong::after {
+  content: "*";
 }
 
 em {
   font-weight: inherit;
+  font-style: italic;
   color: #ffffff;
 }
 
@@ -772,6 +781,11 @@ h1, h2, h3 {
     font-weight: inherit;
 }
 
+h1 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
 h2 {
     text-align: center;
     font-weight: bold;
@@ -779,11 +793,6 @@ h2 {
     padding: 5px;
     color: #000;
     background: #00aaaa;
-}
-
-h1 {
-    text-transform: uppercase;
-    color: #fff;
 }
 
 h3 {
@@ -870,6 +879,7 @@ ol ol,
 ol ul {
   margin-bottom: 0px;
 }
+
 
 li {
   padding-left: 0;
@@ -1849,6 +1859,11 @@ select:focus:invalid:focus {
 .input-prepend.input-append .btn-group:first-child {
   margin-left: 0;
 }
+
+tbody tr td a::before{
+  content: "• ";
+}
+
 
 input.search-query {
   padding-right: 14px;
@@ -3800,6 +3815,12 @@ input[type="submit"].btn.btn-mini {
   padding: 20px 20px;
   background: #00aaaa;
   color: #000000;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
+  -moz-box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
+        box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
 }
 
 .nav li + .nav-header {
