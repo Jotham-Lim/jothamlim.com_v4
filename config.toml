@@ -20,7 +20,7 @@ enableRobotsTXT = true
     copyrightname = "Jotham Lim"
 
     # Show the "built on Hugo" disclaimer
-    showhugo = true
+    showhugo = false
   
     showcrt = true
 
