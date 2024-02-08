@@ -14,7 +14,7 @@ enableRobotsTXT = true
     mainpagesubtitle = "Tech Hobbyist, HealthyGamer Coach & B2B Marketer"
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "Welcome to my corner on the internet — where I share thoughts and insights learnt throughout work and life."
+    mainpagedesc = "Welcome to my corner on the internet—where I share thoughts and insights learned throughout work and life."
 
     # The name to display in the copyright section in the footer
     copyrightname = "Jotham Lim"
