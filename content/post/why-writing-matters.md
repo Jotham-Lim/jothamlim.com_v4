@@ -3,9 +3,9 @@ title: Why Writing Matters to Everyone
 date: 2023-01-18T08:00:00+0800
 author: Jotham Lim
 tags:
-  - Personal
-  - Career
-category: Essay
+  - personal
+  - career
+category: essay
 ---
 
 Is long-form writing dead?

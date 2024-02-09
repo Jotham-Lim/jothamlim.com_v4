@@ -3,9 +3,9 @@ title: Why Everyone Should Learn Task Management
 date: 2023-10-30T08:00:00+0800
 author: Jotham Lim
 tags:
-  - Career
-  - Personal
-category: Essay
+  - career
+  - personal
+category: essay
 ---
 
 Thanks to the availability of AI tools like ChatGPT, completing tasks is easier than ever before.

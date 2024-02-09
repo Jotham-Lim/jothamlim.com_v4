@@ -1,5 +1,7 @@
-{{range first 10 ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
-<li>
-    <a href="{{ .Permalink }}">{{.Title}}</a>
-</li>
-{{ end }}
+{{ range first 10 ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+    {{ if ne .Title "index" }}
+        <li>
+            <a href="{{ .Permalink }}">{{.Title}}</a>
+        </li>
+    {{ end }} 
+{{ end }}y

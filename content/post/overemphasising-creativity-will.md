@@ -3,8 +3,8 @@ title: Overemphasising Creativity Will Hurt Your Business
 date: 2023-01-18T08:00:00+0800
 author: Jotham Lim
 tags:
-  - Career
-category: Essay
+  - career
+category: essay
 ---
 
 I believe that ideas are often overrated, and undeserving of the pedestal companies place them upon.

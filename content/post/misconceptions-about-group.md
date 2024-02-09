@@ -3,9 +3,9 @@ title: Misconceptions About Group Decision-Making — Tips for Better Business C
 date: 2023-01-02T08:00:00+0800
 author: Jotham Lim
 tags:
-  - Personal
-  - Career
-category: Essay
+  - personal
+  - career
+category: essay
 ---
 
 Is group decision-making a democratic process or a dictatorship? A survival of the fittest idea or a battle to achieve consensus?

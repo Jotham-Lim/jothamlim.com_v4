@@ -3,8 +3,8 @@ title: Plight of the Malaysian Young Adults
 date: 2024-01-01T08:00:00+0800
 author: Jotham Lim
 tags:
-  - Personal
-category: Essay
+  - personal
+category: essay
 ---
 
 I had a discussion with a friend about rising property prices. Both of us are in our late 20s.

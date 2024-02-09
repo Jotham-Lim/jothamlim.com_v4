@@ -3,9 +3,9 @@ title: How Competitive Shooters Made Me a Better Leader
 date: 2024-01-20T08:00:00+0800
 author: Jotham Lim
 tags:
-  - Career
-  - Personal
-category: Essay
+  - career
+  - personal
+category: essay
 ---
 
 It's easy to chalk up e-sports as just children's pastime. But like any other sport, it takes a lot of practice, skills, and talent to be highly competitive—even more so within a team setting.

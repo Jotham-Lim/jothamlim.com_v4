@@ -3,8 +3,8 @@ title: Elements of a Good Working Culture
 date: 2023-01-01T08:00:00+0800
 author: Jotham Lim
 tags:
-  - Career
-category: Essay
+  - career
+category: essay
 ---
 
 Small enterprises tend to treat company culture as if it is an arm within the human resource department. Operationally, they function similarly to marketing—creating materials with eye-rolling copy targeting internal employees and deems it “building” company culture.

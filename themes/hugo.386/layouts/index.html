@@ -23,8 +23,32 @@
             {{ end }}
         </ul>
         <p></p>
+        <hr>
+        <p></p>
+        <h1>Status Updates</h1>
+        <ul>
+            {{ range first 7 .Site.RegularPages }}
+            {{ if eq .Type "micropost" }}
+            <a href="{{ .Permalink }}">
+                {{ $currentDate := now }}
+                {{ $postDate := .Date }}
+        
+                {{ $duration := $currentDate.Sub $postDate }}
+                {{ $hoursAgo := $duration.Hours | int }}
+        
+                {{ if ge $hoursAgo 24 }}
+                    {{ $daysAgo := div $hoursAgo 24 }} 
+                    {{ $daysAgo }} day{{ if ne $daysAgo 1 }}s{{ end }} ago | {{ .Title }}
+                {{ else }}
+                    {{ $hoursAgo }} hours ago | {{ .Title }}
+                {{ end }}
+            </a>
+            {{ .Content }}
+            {{ end }}
+            {{ end }}
+        </ul>
+        <p></p>                   
     </div>
-
     <div class="span3 bs-docs-sidebar">
         <h1 class="nav nav-header">{{ i18n "category" }}</h1>
         <ul class="nav nav-list bs-docs-sidenav">

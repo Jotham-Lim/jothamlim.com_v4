@@ -3,9 +3,9 @@ title: Building a Personal Website — Why I Chose Obsidian Publish
 date: 2023-09-18T08:00:00+0800
 author: Jotham Lim
 tags:
-  - Personal
-  - Technology
-category: Essay
+  - personal
+  - technology
+category: essay
 ---
 
 > I have since moved to HUGO for cost saving reasons, but the points here still apply.

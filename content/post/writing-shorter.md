@@ -3,8 +3,8 @@ title: Writing Shorter
 date: 2023-02-18T08:00:00+0800
 author: Jotham Lim
 Tags:
-  - Writing
-category: Essay
+  - writing
+category: essay
 ---
 
 I have a bad habit of writing long form content.
