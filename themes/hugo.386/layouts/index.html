@@ -14,7 +14,7 @@
         <p></p>
         <hr class="soften">
         <p></p>
-        <h1>{{ i18n "postslist" }}</h1>
+        <h1> Recent {{ i18n "postslist" }}</h1>
         <ul>
             {{ range first 7 .Site.RegularPages }}
             {{ if eq .Type "post" }}
@@ -25,7 +25,7 @@
         <p></p>
         <hr>
         <p></p>
-        <h1>Status Updates</h1>
+        <h1>Recent Status Updates</h1>
         <ul>
             {{ range first 5 .Site.RegularPages }}
             {{ if eq .Type "micropost" }}
@@ -52,7 +52,12 @@
     <div class="span3 bs-docs-sidebar">
         <h1 class="nav nav-header">{{ i18n "category" }}</h1>
         <ul class="nav nav-list bs-docs-sidenav">
-            {{ partial "category.html" .}}
+            <li>
+                <a href="{{ .Site.BaseURL }}/post">Blog Posts</a>
+            </li>
+            <li>
+                <a href="{{ .Site.BaseURL }}/micropost">Status Update</a>
+            </li>
         </ul>
         <p></p>
         <h1 class="nav nav-header">{{ i18n "tags" }}</h1>
