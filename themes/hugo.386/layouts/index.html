@@ -40,7 +40,7 @@
                     {{ $daysAgo := div $hoursAgo 24 }} 
                     {{ $daysAgo }} day{{ if ne $daysAgo 1 }}s{{ end }} ago
                 {{ else }}
-                    {{ $hoursAgo }} hours ago | {{ .Title }}
+                    {{ $hoursAgo }} hours ago
                 {{ end }}
             </a>
             {{ .Content }}
