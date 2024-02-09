@@ -3,10 +3,9 @@ title: 3 Soft Skills to Put in Your Resume for Young Professionals in 2023
 date: 2023-03-31T08:00:00+0800
 author: Jotham Lim
 tags:
-- Personal
-- Career
-categories:
-- Essays
+  - Personal
+  - Career
+category: Essay
 ---
 
 Companies seem to place a strong emphasis on hard skills in the workplace—which is evident in most job descriptions I come across online.

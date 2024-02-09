@@ -2,10 +2,9 @@
 title: Writing Shorter
 date: 2023-02-18T08:00:00+0800
 author: Jotham Lim
-categories:
-- Posts
 Tags:
-- Writing
+  - Writing
+category: Essay
 ---
 
 I have a bad habit of writing long form content.
@@ -19,3 +18,4 @@ Through these changes, I hope to reduce writing friction and maximise publicatio
 In a way, I'm trying out a format that's a mix between Twitter posts and newsletters. Look forward to more content moving forward!
 
 PS: [Checkout the photographs from my Tokyo trip.](https://photos.jothamlim.me/)
+ 

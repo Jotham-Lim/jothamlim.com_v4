@@ -9,7 +9,7 @@ tags = [
     "html",
     "themes",
 ]
-categories = [
+category = [
     "themes",
     "syntax",
 ]

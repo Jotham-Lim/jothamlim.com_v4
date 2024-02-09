@@ -1,12 +1,11 @@
 ---
 title: Why I Chose Hugo for My Personal Website
 date: 2024-01-22T08:00:00+0800
-categories:
-  - Essays
 author: Jotham Lim
 tags:
-- Technology
-- Personal
+  - Technology
+  - Personal
+category: Essay
 ---
 
 Having my own website is essential to me.

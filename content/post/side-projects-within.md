@@ -1,11 +1,10 @@
 ---
 title: Side Projects Within the Workplace
 date: 2023-06-18T08:00:00+0800
-categories:
-  - Essays
 author: Jotham Lim
 Tags:
-- Career
+  - Career
+category: Essay
 ---
 
 Isn't it ironic?

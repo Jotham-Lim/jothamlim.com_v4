@@ -1,12 +1,11 @@
 ---
 title: AI Has Come, but I Will Still Be Here
 date: 2023-05-15T08:00:00+0800
-categories:
-- Essays
 author: Jotham Lim
-tags: 
-- Personal
-- Technology
+tags:
+  - Personal
+  - Technology
+category: Essay
 ---
 
 AI is set to disrupt most if not all, sorts of knowledge work. But disruption shouldn't be mistaken as a replacement.

@@ -1,12 +1,11 @@
 ---
 title: Will ChatGPT Replace Writers?
 date: 2024-01-14T08:00:00+0800
-categories:
-  - Essays
 author: Jotham Lim
 tags:
-- Personal
-- Career
+  - Personal
+  - Career
+category: Essay
 ---
 
 A few weeks back, an old friend asked me this over some pints. “Do you think ChatGPT will replace us one day?” Both of us are from the creative industry, initially assumed to be technologically resilient. But like truck drivers with self-driving vehicles, it is now our heads at risk of the chopping block.

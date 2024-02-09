@@ -1,12 +1,11 @@
 ---
 title: After 18 Months — Being a Marketing Manager
 date: 2024-01-21T08:00:00+0800
-categories:
-- Essays
 author: Jotham Lim
-tags: 
-- Personal
-- Career
+tags:
+  - Personal
+  - Career
+category: Essay
 ---
 
 I lead a small team of three. Though small, this department is an important one and has an undeniable impact on the company and the industry.

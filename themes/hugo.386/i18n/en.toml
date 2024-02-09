@@ -7,8 +7,8 @@ other = "Posts"
 [postslist]
 other = "Blog posts"
 
-[categories]
-other = "Categories"
+[category]
+other = "Category"
 
 [tags]
 other = "Tags"

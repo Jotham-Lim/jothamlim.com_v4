@@ -2,10 +2,9 @@
 title: Content Creation - Working Past the Cringe
 date: 2023-01-01T08:00:00+0800
 author: Jotham Lim
-categories:
-- Essays
 tags:
-- Personal
+  - Personal
+category: Essay
 ---
 
 When's the last time you've released content, not for others but yourself?

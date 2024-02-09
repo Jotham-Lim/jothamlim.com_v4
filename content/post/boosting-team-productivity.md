@@ -1,12 +1,11 @@
 ---
 title: Boosting Team Productivity — What We Can Learn From University Projects
 date: 2023-02-10T08:00:00+0800
-categories:
-- Essays
 author: Jotham Lim
 tags:
-- Career
-- Personal
+  - Career
+  - Personal
+category: Essay
 ---
 
 What makes an unsustainable, inefficient, and selfish department? For that, we can look towards a scenario that many of you might be all too familiar with: College group assignments, especially during the pandemic.

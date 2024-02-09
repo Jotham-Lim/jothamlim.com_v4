@@ -2,10 +2,9 @@
 title: 3 Book Reccomendations for Young Professionals
 date: 2023-04-30T08:00:00+0800
 author: Jotham Lim
-categories:
-- Essays
 tags:
-- Career
+  - Career
+category: Essay
 ---
 
 Of all the habits I've built up in recent years, consistent reading is the one that has helped me the most. It formed the foundation of my personal productivity system, forced me to reflect on my existing bad habits, and even shaped my belief system.

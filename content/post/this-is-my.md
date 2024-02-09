@@ -1,12 +1,11 @@
 ---
 title: Why Am I Migrating to Micro.blog?
 date: 2024-02-04T10:56:47+0800
-categories:
-  - Essays
 author: Jotham Lim
 tags:
-- Personal
-- Technology
+  - Personal
+  - Technology
+category: Essay
 ---
 This is my 7th blog migration now—away from WordPress, Obsidian Publish, [Super.so](https://Super.so), Ghost, Substack & Hugo.
 

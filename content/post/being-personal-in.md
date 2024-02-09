@@ -2,11 +2,10 @@
 title: Being Personal In The Workplace
 date: 2023-01-18T08:00:00+0800
 author: Jotham Lim
-categories:
-- Essays
-tags: 
-- Personal
-- Career
+tags:
+  - Personal
+  - Career
+category: Essay
 ---
 
 ## _QUESTION_

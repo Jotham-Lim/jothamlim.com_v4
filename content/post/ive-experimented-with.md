@@ -1,12 +1,11 @@
 ---
 title: I've Experimented With Personal Productivity for 18 Months — Here's What I've Learned
 date: 2023-11-01T08:00:00+0800
-categories:
-  - Essays
 author: Jotham Lim
 tags:
-- Career
-- Personal
+  - Career
+  - Personal
+category: Essay
 ---
 
 I am obsessed with productivity systems. From Ali Abdaal to James Clear, Keep Productive to Cal Newport… task apps, calendars, daily planners, and personal knowledge management—if it exists in the Apple ecosystem, chances are I've tried it before.

@@ -63,7 +63,7 @@ enableRobotsTXT = true
     weight = 30
 
 [taxonomies]
-category = "categories"
+category = "category"
 tag = "tags"
 
 [markup]

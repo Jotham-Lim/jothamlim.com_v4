@@ -3,9 +3,10 @@ title: Writing — How to Practice Correctly
 date: 2023-01-01T08:00:00+0800
 author: Jotham Lim
 category:
-- Posts
+  - Posts
+  - Essay
 tags:
-- Writing
+  - Writing
 ---
 
 I've recently been introduced to the idea of Copywork by [Matthew from TheFutur,](https://www.youtube.com/watch?v=By-_gbXjEEM) and it helped me realise that I've gone about writing practices all wrong. When training new writers, my original regimen looks like this:

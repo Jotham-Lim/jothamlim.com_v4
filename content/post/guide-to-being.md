@@ -1,12 +1,11 @@
 ---
 title: Guide to Being a New Manager — Alignment
 date: 2023-10-15T08:00:00+0800
-categories:
-  - Essays
 author: Jotham Lim
 tags:
-- Career
-- Personal
+  - Career
+  - Personal
+category: Essay
 ---
 
 Being recruited as a first-time manager can be both exciting yet uncomfortable.
