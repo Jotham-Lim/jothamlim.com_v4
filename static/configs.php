@@ -4,7 +4,7 @@ return (object) array(
 	// First some settings for the site
 	'siteUrl' => 'https://jothamlim.com/',					// the URL for your site - note trailing slash
 	'timezone' => 'Asia/Kuala_Lumpur',							// http://php.net/manual/en/timezones.php
-	'mediaPoint' => 'https://jothamlim.com/images',			// Micropub Media Endpoint
+	'mediaPoint' => 'https://jothamlim.com/media.php',			// Micropub Media Endpoint
 	'tokenPoint' => 'https://tokens.indieauth.com/token',	// IndieAuth Token Endpoint
 	'storageFolder' => '../content',						// the folder to store the posts in
 	'trashFolder' => '../trash',							// the folder to move removed posts into
