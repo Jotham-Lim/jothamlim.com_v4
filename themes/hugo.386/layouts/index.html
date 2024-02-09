@@ -27,7 +27,7 @@
         <p></p>
         <h1>Status Updates</h1>
         <ul>
-            {{ range first 7 .Site.RegularPages }}
+            {{ range first 5 .Site.RegularPages }}
             {{ if eq .Type "micropost" }}
             <a href="{{ .Permalink }}">
                 {{ $currentDate := now }}
@@ -38,7 +38,7 @@
         
                 {{ if ge $hoursAgo 24 }}
                     {{ $daysAgo := div $hoursAgo 24 }} 
-                    {{ $daysAgo }} day{{ if ne $daysAgo 1 }}s{{ end }} ago | {{ .Title }}
+                    {{ $daysAgo }} day{{ if ne $daysAgo 1 }}s{{ end }} ago
                 {{ else }}
                     {{ $hoursAgo }} hours ago | {{ .Title }}
                 {{ end }}
