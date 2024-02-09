@@ -29,19 +29,8 @@
         <ul>
             {{ range first 5 .Site.RegularPages }}
             {{ if eq .Type "micropost" }}
-            <a href="{{ .Permalink }}">
-                {{ $currentDate := now }}
-                {{ $postDate := .Date }}
-        
-                {{ $duration := $currentDate.Sub $postDate }}
-                {{ $hoursAgo := $duration.Hours | int }}
-        
-                {{ if ge $hoursAgo 24 }}
-                    {{ $daysAgo := div $hoursAgo 24 }} 
-                    {{ $daysAgo }} day{{ if ne $daysAgo 1 }}s{{ end }} ago
-                {{ else }}
-                    {{ $hoursAgo }} hours ago
-                {{ end }}
+            <a href="{{ .Permalink }}" class="post-link">
+                <span class="date-posted" data-date="{{ .Date }}"></span>
             </a>
             {{ .Content }}
             {{ end }}
