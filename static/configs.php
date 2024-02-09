@@ -33,7 +33,7 @@ return (object) array(
 	'defaultLoc' => 'London',
 
 	// Set Frontmatter Format -- json or yaml
-	'frontFormat' => 'yaml'
+	'frontFormat' => 'json'
 );
 
 ?>
