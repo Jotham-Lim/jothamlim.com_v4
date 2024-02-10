@@ -16,6 +16,10 @@
         </ul>
     {{ end }}
     <span class="e-content">{{ .Content }}</span>
+    {{ $mfPhoto := index .Page.Params "mf-photo" 0 }}
+    {{ if $mfPhoto }}
+    <img src="{{ $mfPhoto }}" alt="Image description" />
+    {{ end }}
     <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
     <hr>
     <div id="webmentions"></div>
