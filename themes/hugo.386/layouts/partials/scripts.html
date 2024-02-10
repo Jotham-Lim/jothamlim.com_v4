@@ -1,23 +1,23 @@
 <link rel="stylesheet" href="{{ "css/bootstrap.css" | relURL }}">
 <link rel="stylesheet" href="{{ "css/bootstrap-responsive.css" | relURL }}">
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
-<script src="{{ "js/jquery.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-386.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-transition.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-alert.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-modal.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-dropdown.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-scrollspy.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-tab.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-tooltip.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-popover.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-button.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-collapse.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-carousel.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-typeahead.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-affix.js" | relURL }}"></script>
-<script src="{{ "js/dateprocess.js" | relURL }}"></script>
-<script>
+<script async src="{{ "js/jquery.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-386.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-transition.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-alert.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-modal.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-dropdown.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-scrollspy.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-tab.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-tooltip.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-popover.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-button.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-collapse.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-carousel.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-typeahead.js" | relURL }}"></script>
+<script async src="{{ "js/bootstrap-affix.js" | relURL }}"></script>
+<script async src="{{ "js/dateprocess.js" | relURL }}"></script>
+<script async>
     _386 = { 
         fastLoad:{{ .Site.Params.loadfastload }},
         onePass:{{ .Site.Params.loadonepass }}, 
@@ -31,5 +31,5 @@
 </script>
 
 {{- range .Site.Params.customJS }}
-<script src="{{ . | relURL }}"></script>
+<script async src="{{ . | relURL }}"></script>
 {{- end }}
