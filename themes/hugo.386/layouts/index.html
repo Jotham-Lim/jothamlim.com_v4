@@ -22,14 +22,6 @@
             {{ end }}
         </ul>
         <p></p>
-        <h1> Recent "Today I Learnt" (TIL) </h1>
-        <ul>
-            {{ $posts := where .Site.RegularPages "Type" "TIL" }}
-            {{ range first 3 $posts }}
-            <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
-            {{ end }}
-        </ul>
-        <p></p>
         <hr>
         <p></p>
         <h1>Recent Status Updates</h1>
@@ -48,7 +40,7 @@
             {{ end }}
             {{ end }}
         </ul>
-        <p></p>                   
+        <p></p>
     </div>
     <div class="span3 bs-docs-sidebar">
         <h1 class="nav nav-header"> MAIN MENU</h1>
