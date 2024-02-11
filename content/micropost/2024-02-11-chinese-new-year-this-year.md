@@ -2,9 +2,6 @@
 layout: micropubpost
 date: '2024-02-11T04:24:47.149Z'
 title: Chinese new year this year is sombre — its a tike where we need
-mf-post-status:
-  - draft
-slug: chinese-new-year-this-year
 ---
 CNY this year is sombre. There’s a-lot of harsh truths to consider. 
 - Confronting the inevitability of mortality, for both ourselves and others.
