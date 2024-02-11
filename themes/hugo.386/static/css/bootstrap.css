@@ -4453,6 +4453,15 @@ input[type="submit"].btn.btn-mini {
   text-shadow: 0;
 }
 
+.navbar .nav > li:nth-child(odd) > a {
+  color: #000;
+}
+
+.navbar .nav > li:nth-child(even) > a {
+  color: #555;
+}
+
+
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 0;
 }

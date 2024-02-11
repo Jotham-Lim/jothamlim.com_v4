@@ -8,12 +8,12 @@
 </article>
 
 <section>
-  {{ $prev := 3000}}
+  {{ $prev := 9999}}
   {{ range .Pages }}
     {{if .Date}}
       {{if gt $prev (.Date.Format "2006")}}
-        {{ if ne $prev 3000}}
-          </table>
+        {{ if ne $prev 9999}}
+        </table>
         {{ end }}
         <h2>{{ .Date.Format "2006" }}</h2>
         <table class="all-posts">
