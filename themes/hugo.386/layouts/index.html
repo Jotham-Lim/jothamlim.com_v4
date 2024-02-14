@@ -33,7 +33,9 @@
             </a>
             {{ .Content }}
             {{ if index .Params "mf-photo"}}
-            <img loading="lazy" src="{{ .Params.mf-photo | replaceRE "^https://jothamlim.com/static" "https://jothamlim.com" }}" alt="Photo" style="max-width:200px; height:auto;">
+            {{ $mfPhoto := index (index .Params "mf-photo") 0 }}
+            {{ $modifiedURL := $mfPhoto | replaceRE "https://jothamlim.com/static" "https://jothamlim.com" }}
+            <img loading="lazy" src="{{ $modifiedURL }}" alt="Photo" style="max-width:200px; height:auto;">
             <br>
             <br>
             {{ end }}
