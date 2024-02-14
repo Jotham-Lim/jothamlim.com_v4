@@ -7,7 +7,10 @@
     </div>
     <span class="e-content">{{ .Content }}</span>
     {{ if index .Params "mf-photo"}}
-    <img src="{{ index (index .Params "mf-photo") 0 }}" alt="Photo" style="max-width:500px; height:auto;">
+    {{ $mfPhoto := index (index .Params "mf-photo") 0 }}
+    {{ $modifiedURL := $mfPhoto | replaceRE "https://jothamlim.com/static" "https://jothamlim.com" }}
+    <img loading="lazy" src="{{ $modifiedURL }}" alt="Photo" style="max-width:500px; height:auto;">
+    <br>
     {{ end }}
     <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
     <hr>
