@@ -18,7 +18,7 @@ My return to Innov8tif is a transitionary measure, with the management there pro
 
 Now, at 28, I've spent a significant part of my adult life transitioning between jobs in search of a company to which I can fully commit. (Like Zhu Ge Liang waiting for a Liu Bei, as my high school friend once put it.)
 
-However, Iv'e come to realise that the greenest grass is the one I cultivate myself. Will it grow into a magnificent lawn? Or will it become overrun with weeds and die? Regardless, I have more control over my destiny than ever before.
+However, I've come to realise that the greenest grass is the one I cultivate myself. Will it grow into a magnificent lawn? Or will it become overrun with weeds and die? Regardless, I have more control over my destiny than ever before.
 
 *What Lies Ahead?*
 
@@ -26,7 +26,7 @@ Uncertainty, fear, and a considerable amount of anxiety. I foresee long hours, s
 
 Yet, I've met friends who open and shut businesses as if it's just an ordinary Tuesday. Building and running companies is normal to them, but this is a new and unfamiliar journey for me.
 
-Being uneasy is natural. In the end, I'm confident that everything will turn out fine. As long as I continue to learn and practice how to 成人, things will fall into place.
+Being uneasy is natural. In the end, I'm confident that everything will turn out fine. As long as I continue to learn and practice how to 做人, things will fall into place.
 
 *Reflecting on the Past*
 
