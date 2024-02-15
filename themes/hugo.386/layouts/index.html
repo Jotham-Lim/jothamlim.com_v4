@@ -29,16 +29,16 @@
             {{ range first 4 .Site.RegularPages }}
             {{ if eq .Type "micropost" }}
             <a href="{{ .Permalink }}" class="post-link">
-                <span class="date-posted" data-date="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"></span>
+                <span class="date-posted" data-date="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}"></span>
             </a>
             {{ .Content }}
             {{ if index .Params "mf-photo"}}
             {{ $mfPhoto := index (index .Params "mf-photo") 0 }}
             {{ $modifiedURL := $mfPhoto | replaceRE "https://jothamlim.com/static" "https://jothamlim.com" }}
             <img loading="lazy" src="{{ $modifiedURL }}" alt="Photo" style="max-width:200px; height:auto;">
-            <br>
-            <br>
             {{ end }}
+            <br>
+            <br>
             {{ end }}
             {{ end }}
         </ul>
@@ -49,28 +49,28 @@
         <ul class="nav nav-list bs-docs-sidenav">
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
-                {{ if .HasChildren }}
-                    <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                        <a href="#">
-                            {{ .Pre }}
-                            <span>{{ .Name }}</span>
-                        </a>
-                    </li>
-                    <ul class="sub-menu">
-                        {{ range .Children }}
-                            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                                <a href="{{ .URL }}">{{ .Name }}</a>
-                            </li>
-                        {{ end }}
-                    </ul>
-                {{ else }}
-                    <li>
-                        <a href="{{ .URL }}">
-                            {{ .Pre }}
-                            <span>{{ .Name }}</span>
-                        </a>
-                    </li>
+            {{ if .HasChildren }}
+            <li class="{{ if $currentPage.HasMenuCurrent " main" . }}active{{ end }}">
+                <a href="#">
+                    {{ .Pre }}
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+            <ul class="sub-menu">
+                {{ range .Children }}
+                <li class="{{ if $currentPage.IsMenuCurrent " main" . }}active{{ end }}">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
                 {{ end }}
+            </ul>
+            {{ else }}
+            <li>
+                <a href="{{ .URL }}">
+                    {{ .Pre }}
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+            {{ end }}
             {{ end }}
         </ul>
         <p></p>
