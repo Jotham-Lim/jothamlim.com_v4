@@ -10,56 +10,50 @@ slug: hokkien-oldies-carpet-the-atmosphere
 
 *Where Am I Heading?*
 
-I&#39;m currently embarking on a new venture, CoThinking, a marketing firm specialising in the B2B tech marketing sector.
+I'm currently embarking on a new venture, CoThinking, a marketing firm specialising in the B2B tech marketing sector.
 
-My return to Innov8tif is a temporary step, with the management there providing significant support to help launch CoThinking.
+My return to Innov8tif is a transitionary measure, with the management there providing substantial support to help with the company launch.
 
 *Why the Change?*
 
-Now at 28, I&#39;ve spent a large portion of my adult life switching jobs, seeking a company to which I can dedicate myself. It&#39;s like Zhu Ge Liang waiting for a Liu Bei, as someone once said.
+Now, at 28, I've spent a significant part of my adult life transitioning between jobs in search of a company to which I can fully commit. (Like Zhu Ge Liang waiting for a Liu Bei, as my high school friend once put it.)
 
-However, I&#39;ve come to realise that the most fertile ground is the one I nurture myself. Will I cultivate the perfect lawn? Or will it become overgrown with weeds and perish? Regardless, I now have more control over my destiny than ever before.
+However, Iv'e come to realise that the greenest grass is the one I cultivate myself. Will it grow into a magnificent lawn? Or will it become overrun with weeds and die? Regardless, I have more control over my destiny than ever before.
 
 *What Lies Ahead?*
 
-Uncertainty, fear, and a great deal of anxiety are on the horizon. I anticipate long hours, sleepless nights, heavy responsibilities, and necessary sacrifices.
+Uncertainty, fear, and a considerable amount of anxiety. I foresee long hours, sleepless nights, heavy responsibilities, and inevitable sacrifices.
 
-Yet, I have friends who start and close businesses as if it&#39;s just another Tuesday. This is a new and unfamiliar path for me, so these feelings are to be expected.
+Yet, I've met friends who open and shut businesses as if it's just an ordinary Tuesday. Building and running companies is normal to them, but this is a new and unfamiliar journey for me.
 
-In the end, I&#39;m confident that everything will be alright. As long as I continue to learn and practice how to 成人, things will work out.
+Being uneasy is natural. In the end, I'm confident that everything will turn out fine. As long as I continue to learn and practice how to 成人, things will fall into place.
 
 *Reflecting on the Past*
 
-Here&#39;s a brief history of my career journey:
+- Freelance work since I was 16.
+I undertook various projects to support my hobbies, mainly camera gear.
 
--   Freelance work since I was 16.
+- Internship at Director's Think Tank.
+The most trauma-inducing 90 days of my life, but it moulded me into the person I am today. I still wouldn't recommend joining.
 
-Undertook random projects to support my hobbies.
+- Videographer at ABC Studio.
+Awesome environment, but the pay couldn't support me then. I often wonder how everyone there is doing.
 
--   Internship at Director&#39;s Think Tank.
+- Brand Producer at Winner Dynasty.
+Caught a glimpse of society's underbelly. Very fun, but also dangerous.
 
-The most challenging 90 days of my life, but it shaped me into the person I am today. I wouldn&#39;t recommend joining.
+- Writer at Armani Media.
+Growth via trial by fire. Met my first mentor whose influence still shaped my leadership style to this day.
 
--   Videographer at ABC Studio.
+- Journalist at TheEdge.
+ Learnt about storytelling and learned how to behave around iMpoRtanT people. Met another awesome boss who taught me what it means to have my team's back.
 
-A pleasant environment, but the pay wasn&#39;t commensurate with the workload. I often wonder how everyone there is faring.
+- Marketing Manager at Innov8tif
+Finally experienced a respectable, livable wage. Doubled down on being a professional and got a taste of what it's like to be a boss.
 
--   Brand Producer at Winner Dynasty.
+- Marketing Manager at ORLIG.
+The true “executive” stage of my life, where I trade away talent & knowledge for higher income.
 
-Caught a glimpse of society&#39;s underbelly.
-
--   Writer at Armani Media.
-
-I was forced to learn networking. Met a fantastic boss who significantly influenced my leadership style.
-
--   Journalist at TheEdge.
-
-Mastered proper storytelling and how to behave around influential people. Experienced the importance of supporting my team, thanks to another remarkable boss.
-
--   Marketing Manager at Innov8tif.
-
-First experienced a livable wage. Deepened my understanding of professionalism. Had a taste of what it&#39;s like to be a boss.
-
--   Marketing Manager at ORLIG.
-
-Applied my acquired skills and knowledge. This was the true &quot;executive&quot; stage of my life.
+---
+Have been through a lot with a lifetime’s worth of trouble to come.
+Let’s freaking go
