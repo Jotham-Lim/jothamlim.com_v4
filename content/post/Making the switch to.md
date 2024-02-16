@@ -5,9 +5,8 @@ author: Jotham Lim
 tags:
   - personal
   - career
+disableToc: true
 ---
-
-# Making the Switch From Things 3 to Omnifocus 4
 
 ![](https://i.imgur.com/BhvGPmQ.jpg)
 
