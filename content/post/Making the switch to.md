@@ -8,8 +8,6 @@ tags:
 disableToc: true
 ---
 
-![](https://i.imgur.com/BhvGPmQ.jpg)
-
 I made the switch from Things (my main app for 3 years) to OF4 after learning about [David Sparks](https://www.youtube.com/watch?v=vUUaQF3_Pyo) and [CGP Grey's](https://www.relay.fm/cortex/142) approach to task management.
 
 My issue with most to-do apps is that they are **time-based**, whether it's assigning a date or using time-blocking/calendar hybrids. This method is poor at **task recovery**.
@@ -27,3 +25,5 @@ OF4 works by scrying — “Here are the top 3 cards you can work on at any give
 I've only adopted this system over the past 2 weeks, and it works well with me so far. We'll see how it goes.
 
 Worst case scenario, I'll just go back to Things.
+
+![](https://i.imgur.com/BhvGPmQ.jpg)
