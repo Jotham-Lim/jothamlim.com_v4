@@ -4,13 +4,11 @@ date: 2024-02-11
 author: Jotham Lim
 tags:
   - personal
-  - career
+  - technology
 disableToc: true
 ---
 
 ![](https://i.imgur.com/BhvGPmQ.jpg)
-
-I'm in the same boat.
 
 I made the switch from Things (my main app for 3 years) to OF4 after learning about [David Sparks](https://www.youtube.com/watch?v=vUUaQF3_Pyo) and [CGP Grey's](https://www.relay.fm/cortex/142) approach to task management.
 
