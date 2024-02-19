@@ -6,4 +6,5 @@ mf-post-status:
   - draft
 slug: after-almost-2-weeks-of
 ---
+
 After almost 2 weeks of non-stop visiting family, friends and working, I finally have some decent sleep and rest.
