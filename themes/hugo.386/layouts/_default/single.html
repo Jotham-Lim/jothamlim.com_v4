@@ -19,7 +19,7 @@
     {{ if index .Params "mf-photo"}}
     <img src="{{ index (index .Params "mf-photo") 0 }}" alt="Photo" style="max-width:500px; height:auto;">
     {{ end }}
-    <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
+    <h4><a href="{{ .Site.BaseURL }}" class="btn">{{ i18n "backtohome" }}</a></h4>
     <div id="webmentions"></div>
 </div>
 

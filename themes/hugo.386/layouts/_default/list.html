@@ -13,7 +13,7 @@
     {{if .Date}}
       {{if gt $prev (.Date.Format "2006")}}
         {{ if ne $prev 9999}}
-        </table>
+        <table style="max: width 100%;">
         {{ end }}
         <h2>{{ .Date.Format "2006" }}</h2>
         <table class="all-posts">
