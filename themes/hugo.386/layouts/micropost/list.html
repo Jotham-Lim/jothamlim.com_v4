@@ -19,10 +19,8 @@
         {{end}}
           <h3><a href="{{.Permalink}}">{{.Date.Format "02 January"}}</a></h3> 
           {{ .Content }}
-          {{ if index .Params "mf-photo"}}
-          {{ $mfPhoto := index (index .Params "mf-photo") 0 }}
-          {{ $modifiedURL := $mfPhoto | replaceRE "https://jothamlim.com/static" "https://jothamlim.com" }}
-          <img loading="lazy" src="{{ $modifiedURL }}" alt="Photo" style="max-width:200px; height:auto;">
+          {{ if .Params.photo}}
+          <img loading="lazy" src="{{ .Params.photo }}" alt="Photo" style="max-width:200px; height:auto;">
           <br>
           {{ end }}
         {{ $prev = .Date.Format "January 2006"}}

@@ -32,10 +32,8 @@
                 <span class="date-posted" data-date="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}"></span>
             </a>
             {{ .Content }}
-            {{ if index .Params "mf-photo"}}
-            {{ $mfPhoto := index (index .Params "mf-photo") 0 }}
-            {{ $modifiedURL := $mfPhoto | replaceRE "https://jothamlim.com/static" "https://jothamlim.com" }}
-            <img loading="lazy" src="{{ $modifiedURL }}" alt="Photo" style="max-width:200px; height:auto;">
+            {{ if .Params.photo}}
+            <img loading="lazy" src="{{ .Params.photo }}" alt="Photo" style="max-width:200px; height:auto;">
             {{ end }}
             <br>
             <br>
