@@ -13,6 +13,17 @@
     <h4><a href="{{ .Site.BaseURL }}" class="btn" >{{ i18n "backtohome" }}</a></h4>
     <hr>
     <div id="webmentions"></div>
+    <form action="https://webmention.io/jothamlim.com/webmention" method="post" target="_blank" style="margin-top: 16px;">
+        <label for="source"><em>Comment by posting on your Blog/Reddit/Facebook, include this webpage's link, and send me the URL:</em></label>
+        <input type="url" name="source" id="source" placeholder="The link to your comment" style="margin-bottom: 14px; width: 90%; display: block;">
+        <div hidden>
+        <label for="target">Link to the page you're commenting on:</label>
+        <input type="url" name="target" id="target" value="{{ printf "%s%s" .Site.BaseURL .Permalink }}" placeholder="The page your webmention is about (probably this page)" style="margin-bottom: 14px; width: 90%; display: block;">
+        </div>
+        <div style="margin-top: 16px;">
+        <input type="submit" class="button" value="Send Webmention">
+        </div>
+    </form>
 </div>
 
 {{ end }}
