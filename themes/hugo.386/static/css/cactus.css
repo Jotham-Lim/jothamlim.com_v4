@@ -17,19 +17,6 @@
 
 @media (prefers-color-scheme: dark) {}
 
-.btn-mini [class^="icon-"],
-.btn-mini [class*=" icon-"] {
-  margin-top: -1px;
-}
-
-.btn-mini {
-  padding: 0;
-  font-size: 18px;
-  -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
-}
-
 .cactus-login-button:hover:before,
 .cactus-login-button:hover:after {
   color: #ffffff;
@@ -59,13 +46,6 @@
   background: #bbbbbb;
   border: 0;
   border-width: 0;
-  -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
-  *zoom: 1;
-  -webkit-box-shadow: 10px 10px 0 #000000;
-     -moz-box-shadow: 10px 10px 0 #000000;
-          box-shadow: 10px 10px 0 #000000;
 }
 
 .cactus-login-button:first-child {
@@ -132,13 +112,6 @@
   background: #bbbbbb;
   border: 0;
   border-width: 0;
-  -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
-  *zoom: 1;
-  -webkit-box-shadow: 10px 10px 0 #000000;
-     -moz-box-shadow: 10px 10px 0 #000000;
-          box-shadow: 10px 10px 0 #000000;
 }
 
 .cactus-send-button:first-child {
@@ -286,28 +259,6 @@
     color: var(--cactus-text-color--soft);
 }
 
-/*.cactus-editor-buttons {
-    display: flex;
-    gap: .5em;
-    padding: 0 10px;
-    *margin-left: .3em;
-    font-size: 18px;
-    color: #000000;
-    text-align: center;
-    vertical-align: middle;
-    cursor: default;
-    background: #bbbbbb;
-    border: 0;
-    border-width: 0;
-    -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
-    *zoom: 1;
-    -webkit-box-shadow: 10px 10px 0 #000000;
-       -moz-box-shadow: 10px 10px 0 #000000;
-            box-shadow: 10px 10px 0 #000000; 
-}*/
-
 .cactus-matrixdotto-only {
     align-self: center;
     text-decoration: none;
@@ -380,9 +331,37 @@
 
 .cactus-login-client-title {
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 300;
     margin: 0;
+    color: #bbbbbb;
 }
+
+.cactus-login-client a {
+    display: inline-block;
+    *display: inline;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    margin-right: 1em;
+    *margin-left: .3em;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    cursor: default;
+    background: #bbbbbb;
+    border: 0;
+    border-width: 0;
+}
+
+.cactus-login-client a::before {
+    content: '>> ';
+  }
+  
+.cactus-login-client a::after {
+    content: ' <<';
+  }
+  
 
 .cactus-matrixdotto-button {
     justify-content: center;
@@ -397,8 +376,9 @@
 
 .cactus-login-credentials-title {
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 300;
     margin: 0;
+    color: #bbbbbb;
 }
 
 .cactus-login-field {
@@ -433,8 +413,30 @@
 }
 
 .cactus-login-credentials-button {
-    justify-content: center;
+    display: inline-block;
+    *display: inline;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    margin-right: 1em;
+    *margin-left: .3em;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    cursor: default;
+    background: #bbbbbb;
+    border: 0;
+    border-width: 0;
 }
+
+.cactus-login-credentials-button:before {
+    content: '>> ';
+  }
+  
+.cactus-login-credentials-button:after {
+    content: ' <<';
+  }
 
 .cactus-comments-container {
     display: flex;
