@@ -231,6 +231,11 @@
     flex-wrap: wrap;
     gap: .5em;
     justify-content: flex-end;
+    align-items: center; /* Align vertical */
+}
+
+.cactus-editor-buttons {
+    display: flex;
 }
 
 .cactus-editor-name {
@@ -486,3 +491,7 @@
 .cactus-comment-time{
     margin-left: 1em;
 }
+  
+
+  
+  
