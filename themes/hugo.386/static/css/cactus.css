@@ -17,6 +17,82 @@
 
 @media (prefers-color-scheme: dark) {}
 
+.cactus-login-button {
+    display: none;
+}
+
+.cactus-send-button:hover:before,
+.cactus-send-button:hover:after {
+  color: #ffffff;
+}
+
+.cactus-send-button:before {
+  content: "< ";
+}
+
+.cactus-send-button:after {
+  content: " >";
+}
+
+.cactus-send-button {
+  display: inline-block;
+  *display: inline;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  *margin-left: .3em;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  cursor: default;
+  background: #bbbbbb;
+  border: 0;
+  border-width: 0;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  *zoom: 1;
+  -webkit-box-shadow: 10px 10px 0 #000000;
+     -moz-box-shadow: 10px 10px 0 #000000;
+          box-shadow: 10px 10px 0 #000000;
+}
+
+.cactus-send-button:first-child {
+  *margin-left: 0;
+}
+
+.cactus-send-button:hover,
+.cactus-send-button:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background: #555555;
+  outline: 0;
+}
+
+.cactus-send-button:focus {
+  outline: thin solid #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.cactus-send-button.active,
+.cactus-send-button:active {
+  margin: 10px 0 10px 10px;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0;
+     -moz-box-shadow: 0 0 0;
+          box-shadow: 0 0 0;
+}
+
+.cactus-send-button.disabled,
+.cactus-send-button[disabled] {
+  cursor: default;
+  background-image: none;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
 
 .cactus-container {
     display: flex;
@@ -83,7 +159,7 @@
     padding: .5em;
     box-sizing: content-box;
     background-color: transparent;
-    color: inherit;
+    color: #ffffff;
     font: inherit;
 }
 
@@ -119,7 +195,7 @@
     border: solid var(--cactus-border-width) var(--cactus-border-color);
     padding: .5em;
     background-color: transparent;
-    color: inherit;
+    color: #ffffff;
     font-size: inherit;
 }
 
@@ -127,7 +203,7 @@
     color: var(--cactus-text-color--soft);
 }
 
-.cactus-editor-buttons {
+/*.cactus-editor-buttons {
     display: flex;
     gap: .5em;
     padding: 0 10px;
@@ -147,7 +223,7 @@
     -webkit-box-shadow: 10px 10px 0 #000000;
        -moz-box-shadow: 10px 10px 0 #000000;
             box-shadow: 10px 10px 0 #000000; 
-}
+}*/
 
 .cactus-matrixdotto-only {
     align-self: center;
@@ -294,35 +370,12 @@
     flex-direction: row;
     gap: 1em;
     padding-block-end: .5em;
-    border-block-end: var(--cactus-border-width) solid var(--cactus-border-color);
 }
 
 .cactus-comment-avatar {
-    display: flex;
+    display: none;
 }
 
-.cactus-comment-avatar>* {
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    margin: 0;
-}
-
-.cactus-comment-avatar-placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var     --cactus-button-color--stronger: #595959;
-    --cactus-comment-avatar-placeholder-text-color: #999;
-    --cactus-comment-name-color: #999;
-    --cactus-comment-date-color: #999;
-}
-
-/* Styles for the avatar placeholder */
-.cactus-comment-avatar-placeholder {
-    background-color: var(--cactus-button-color--strong);
-    color: var(--cactus-comment-avatar-placeholder-text-color);
-}
 
 /* Styles for the comment details (name and date) */
 .cactus-comment-details {

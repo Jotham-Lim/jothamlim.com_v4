@@ -10,11 +10,20 @@
         defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
         serverName: "cactus.chat",
         siteName: "jothamlim",
-        commentSectionId: "cactus-comments"
+        commentSectionId: "{{ .File.UniqueID }}"
         })
     </script>
 <br>
-<h1 class="nav nav-header" style="text-align: center;">Webmention</h1>
+<h1 class="nav nav-header wm-header" style="text-align: center; display: none;">Webmention</h1>
 <br>
 <div id="webmentions"></div>
 <br>
+
+<script>
+    window.onload = function() {
+      var webmentionsContent = document.getElementById('webmentions').innerHTML;
+      if (webmentionsContent.trim().length > 0) {
+        document.querySelector('.wm-header').style.display = 'block';
+      }
+    }
+</script>
