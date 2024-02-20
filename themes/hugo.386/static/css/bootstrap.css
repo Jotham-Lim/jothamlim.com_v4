@@ -8,7 +8,27 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+ #statuscafe {
+  background-color: #BBBBBB;
+  display: block;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  margin-left: -5px;
+  border: 2px solid #000000;
+  -webkit-box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
+     -moz-box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
+          box-shadow: 0 0 0 5px, 11px 13px 0 4px black;
+}
 
+#statuscafe-content {
+  color: #000000;
+}
+#statuscafe-username a{
+  display: none;
+}
+#statuscafe-username {
+  color: #555555;
+}
 
  #webmentions {
   margin: 0;
