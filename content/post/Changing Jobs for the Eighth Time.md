@@ -5,7 +5,6 @@ title: Changing Jobs for the Eighth Time
 tags: 
    - personal
    - technology
-slug: hokkien-oldies-carpet-the-atmosphere
 ---
 **Changing Jobs for the Eighth Time**
 
