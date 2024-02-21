@@ -1,0 +1,30 @@
+<h4><a href="{{ .Site.BaseURL }}" class="btn">{{ i18n "backtohome" }}</a></h4>
+<hr style="opacity: 0.3; max-width: 90%; margin: auto;">
+    <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+        <h1 class="nav nav-header" style="text-align: center;">Comments</h1>
+        <p style="font-size: 14px;">*Login is optional</p>
+        <br>
+        <div id="comment-section"></div>
+        <script>
+        initComments({
+        node: document.getElementById("comment-section"),
+        defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+        serverName: "cactus.chat",
+        siteName: "jothamlim",
+        commentSectionId: "{{ .File.UniqueID }}"
+        })
+    </script>
+<br>
+<h1 class="nav nav-header wm-header" style="text-align: center; display: none;">Webmention</h1>
+<br>
+<div id="webmentions"></div>
+<br>
+
+<script>
+    window.onload = function() {
+      var webmentionsContent = document.getElementById('webmentions').innerHTML;
+      if (webmentionsContent.trim().length > 0) {
+        document.querySelector('.wm-header').style.display = 'block';
+      }
+    }
+</script>
