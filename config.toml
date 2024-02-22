@@ -58,13 +58,13 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "micropost"
-    name = "All Status Updates"
+    name = "Status Updates"
     url = "/micropost/"       # The path can lead to a content folder too.
     weight = 25
 
   [[menu.main]]
     identifier = "cool_links"
-    name = "Interesting Links"
+    name = "Cool Links (WIP)"
     url = "/cool_links/" 
     weight = 30
 

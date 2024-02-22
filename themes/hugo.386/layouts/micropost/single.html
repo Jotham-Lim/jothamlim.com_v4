@@ -2,9 +2,12 @@
 <div class="row-fluid navmargin">
     <div class="page-header">
         <h1 class="p-name">
-            <span class="dt-published">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+            <span class="dt-published">{{ .Date.Format "Mon, Jan 2, 2006 at 3:04pm" }} </span>
         </h1>
     </div>
+    {{ if .Params.emoji}}
+    <h3> Feeling: {{.Params.emoji}} </h3>
+    {{ end }}
     <span class="e-content">{{ .Content }}</span>
     {{ if .Params.photo}}
     <img loading="lazy" src="{{ .Params.photo }}" alt="Photo" style="max-width:500px; height:auto;">

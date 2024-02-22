@@ -17,8 +17,8 @@ What I do for a living:
 - Mental health / career coach for HealthyGamer Institute.
 - Mentor for Yayasan Tunku Abdul Rahman.
 
-[Email](mailto:admin@jothamlim.com)
-[LinkedIn](https://www.linkedin.com/in/jothamlec/)
+[>Email<](mailto:admin@jothamlim.com)
+[>LinkedIn<](https://www.linkedin.com/in/jothamlec/)
 
 ---
 

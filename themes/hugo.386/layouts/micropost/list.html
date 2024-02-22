@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="row-fluid navmargin">
     <header class="page-header">
-        <h1>{{.Title}}</h1>
+        <h1>Status Updates</h1>
     </header>
     <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
     {{.Content}}
@@ -17,7 +17,12 @@
         {{ end }}
         <h2>{{ .Date.Format "January 2006" }}</h2> 
         {{end}}
-          <h3><a href="{{.Permalink}}">{{.Date.Format "02 January"}}</a></h3> 
+          <h3>
+            <a href="{{.Permalink}}">{{.Date.Format "02 January"}}</a>
+            {{ if .Params.emoji}}
+            Feeling: {{.Params.emoji}}
+            {{ end }}
+          </h3> 
           {{ .Content }}
           {{ if .Params.photo}}
           <img loading="lazy" src="{{ .Params.photo }}" alt="Photo" style="max-width:200px; height:auto;">

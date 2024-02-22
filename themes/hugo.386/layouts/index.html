@@ -14,62 +14,58 @@
         <p></p>
         <hr class="soften">
         <p></p>
-        <h1> Recent {{ i18n "postslist" }}</h1>
+        <h6> RECENT BLOG POSTS</h6>
         <ul>
             {{ $posts := where .Site.RegularPages "Type" "post" }}
-            {{ range first 5 $posts }}
+            {{ range first 8 $posts }}
             <li><a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></li>
             {{ end }}
         </ul>
         <p></p>
-        <hr>
-        <p></p>
-        <h1>Recent Status Updates</h1>
-        <ul>
-            {{ range first 7 .Site.RegularPages }}
+          <ul class="lead">
+            <h6 style="margin: 1em;">CURRENT STATUS</h6> 
+            <br>
+            {{ range first 1 .Site.RegularPages }}
             {{ if eq .Type "micropost" }}
             <a href="{{ .Permalink }}" class="post-link">
                 <span class="date-posted" data-date="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}"></span>
             </a>
-            {{ .Content }}
+            {{ if .Params.emoji}}
+            <p style="color: white">Feeling: {{.Params.emoji}}</p>
+            {{ end }}
+            <span style="color: #BBBBBB;"> {{ .Content }} </span>
             {{ if .Params.photo}}
             <img loading="lazy" src="{{ .Params.photo }}" alt="Photo" style="max-width:200px; height:auto;">
             {{ end }}
-            <br>
-            <br>
             {{ end }}
             {{ end }}
-        </ul>
+        </ul> 
         <p></p>
     </div>
     <div class="span3 bs-docs-sidebar">
         <h1 class="nav nav-header"> MAIN MENU</h1>
         <ul class="nav nav-list bs-docs-sidenav">
             {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-            <li class="{{ if $currentPage.HasMenuCurrent " main" . }}active{{ end }}">
-                <a href="#">
-                    {{ .Pre }}
-                    <span>{{ .Name }}</span>
-                </a>
-            </li>
-            <ul class="sub-menu">
-                {{ range .Children }}
-                <li class="{{ if $currentPage.IsMenuCurrent " main" . }}active{{ end }}">
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ range $index, $item := .Site.Menus.main }}
+            {{ if eq $index 0 }}
+                <li>
+                    <a href="{{ $item.URL }}">
+                        {{ $item.Pre }}
+                        <span style=" -webkit-animation: blinkingText 1.2s infinite;
+                        animation: blinkingText 1.2s infinite;">
+                            {{ $item.Name }}
+                        </span>
+                    </a>
                 </li>
-                {{ end }}
-            </ul>
             {{ else }}
-            <li>
-                <a href="{{ .URL }}">
-                    {{ .Pre }}
-                    <span>{{ .Name }}</span>
-                </a>
-            </li>
+                <li>
+                    <a href="{{ $item.URL }}">
+                        {{ $item.Pre }}
+                        <span>{{ $item.Name }}</span>
+                    </a>
+                </li>
             {{ end }}
-            {{ end }}
+        {{ end }}        
         </ul>
         <p></p>
         <h1 class="nav nav-header">{{ i18n "tags" }}</h1>
@@ -77,10 +73,6 @@
             {{ partial "tags.html" .}}
         </ul>
         <p></p>
-        <a href="https://status.cafe/users/jothamlec">
-            <h1 class="nav nav-header">Status.Cafe</h1>
-          </a>          
-        <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=jothamlec" defer></script>
         <p></p>
         <h1 class="nav nav-header">NavLink.Ads</h1>
         <ul class="nav nav-list bs-docs-sidenav" style="margin: auto; display: flex; justify-content: center; align-items: center;">
