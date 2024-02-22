@@ -8,6 +8,11 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+ p.footer {
+  margin: 0px;
+ }
+
+
  #statuscafe {
   background-color: #BBBBBB;
   display: block;
