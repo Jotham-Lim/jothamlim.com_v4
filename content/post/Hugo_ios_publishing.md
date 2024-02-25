@@ -1,5 +1,5 @@
 +++
-title = 'Publishing to Hugo/Jekyll Remotely via iOS'
+title = 'Guide: Publishing to Hugo/Jekyll Remotely via iOS'
 date = 2024-02-25T10:28:12+08:00
 tags = 'technology'
 disableToC = true
