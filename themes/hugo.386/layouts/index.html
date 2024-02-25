@@ -25,8 +25,8 @@
           <ul class="lead">
             <h6 style="margin: 1em;">CURRENT STATUS</h6> 
             <br>
-            {{ range first 1 .Site.RegularPages }}
-            {{ if eq .Type "micropost" }}
+            {{ $micropost := where .Site.RegularPages "Type" "micropost" }}
+            {{ range first 1 $micropost }}
             <a href="{{ .Permalink }}" class="post-link">
                 <span class="date-posted" data-date="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}"></span>
             </a>
@@ -36,7 +36,6 @@
             <span style="color: #BBBBBB;"> {{ .Content }} </span>
             {{ if .Params.photo}}
             <img loading="lazy" src="{{ .Params.photo }}" alt="Photo" style="max-width:200px; height:auto;">
-            {{ end }}
             {{ end }}
             {{ end }}
         </ul> 
