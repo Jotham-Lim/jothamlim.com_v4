@@ -35,12 +35,10 @@ What’s more interesting is Working Copy’s integration with Shortcut Actions,
 I have two types of microposts — with photo and without. My shortcut differentiates the two based on whether the image is within my clipboard:
 
 _Without Photo:_
-
-![](https://i.imgur.com/M4ip9K1.mp4)
+[https://i.imgur.com/M4ip9K1.mp4](https://i.imgur.com/M4ip9K1.mp4)
 
 _With Photo:_
-
-![](https://i.imgur.com/SdWa3Zb.mp4)
+[https://i.imgur.com/SdWa3Zb.mp4](https://i.imgur.com/SdWa3Zb.mp4)
 
 Note:
 -  You’re able to change the note’s file destination and template by adjusting parameters within the shortcut.
