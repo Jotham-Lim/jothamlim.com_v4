@@ -12,17 +12,17 @@ However, publishing from my phone is not as straightforward. I have a _micropost
 -  Contain photos taken from my phone
 -  Can be published quickly
 
-I initially thought that the only feasible way to publish using my phone was via Micro.pub. This is evident in direct integrations with writing apps such as [Ulysses](https://ulysses.app), iA [Writer](https://ia.net) and [Paper](https://papereditor.app). 
+I initially thought that the only feasible way to publish using my phone was via Micropub. This is evident in direct integrations with writing apps such as [Ulysses](https://ulysses.app), [iA Writer](https://ia.net) and [Paper](https://papereditor.app). 
 
-The issues with Micro.pub are:
+The issues with Micropub are:
 -  It’s extremely difficult to set up for someone without a technical background, like myself.
 -  The only feasible way I’ve managed to get this to work is via [Voxpelli’s Solution](https://github.com/voxpelli/webpage-micropub-to-github).
--  Even then, it costs money to host a Micro.pub solution. The only free way I’ve managed to get this to work is via [Render](https://render.com), which only spins up the server when in use. 
--  This is problematic for my use case, because it takes a long time to publish a micropost, it often displays an error, and there’s a high risk of double-posting.
+-  Even then, it costs money to host a micropub solution. The only free way I’ve managed to get this to work is via [Render](https://render.com), which only spins up the server when in use. 
+-  This is problematic for my use case, because it takes a long time to publish a micropost, it often displays an error and there’s a high risk of double-posting.
 
 ## A Much More Elegant Solution
 
-Because Micro.pub wasn’t working, I stumbled upon a different approach — creating and editing markdown files directly within the GitHub repo istelf.
+Because micropub wasn’t working, I stumbled upon a different approach — creating and editing markdown files directly within the GitHub repo itself.
 
 Unfortunately, GitHub’s native app doesn’t provide an efficient way to create and edit markdown files. That’s when I discovered [Working Copy](https://workingcopy.app) — an iOS Git client that GitHub should have been. 
 
