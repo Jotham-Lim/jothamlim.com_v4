@@ -1,5 +1,5 @@
 ---
-title: Making the Switch From Things 3 to Omnifocus 4
+title: OmniFocus is not a TODO app, It’s a CAN DO app.
 date: 2024-02-11
 author: Jotham Lim
 tags:
