@@ -765,13 +765,13 @@ a:focus {
   clear: both;
 }
 
-img {
-  -webkit-filter: contrast(200%);
-     -moz-filter: contrast(200%);
-      -ms-filter: contrast(200%);
-       -o-filter: contrast(200%);
-          filter: contrast(200%);
-}
+/* img { */
+/*   -webkit-filter: contrast(200%); */
+/*      -moz-filter: contrast(200%); */
+/*       -ms-filter: contrast(200%); */
+/*        -o-filter: contrast(200%); */
+/*           filter: contrast(200%); */
+/* } */
 
 p {
   margin: 0 0 2em;
